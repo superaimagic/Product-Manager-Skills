@@ -4,7 +4,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/deanpeters/Product-Manager-Skills?style=flat-square)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills/blob/main/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills/blob/main/CONTRIBUTING.md)
-[![Version](https://img.shields.io/badge/version-v0.78-blue?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills)
+[![Version](https://img.shields.io/badge/version-v0.79-blue?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills)
 [![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin%20Marketplace-5C4EE5?style=flat-square)](https://code.claude.com/docs/en/plugin-marketplaces)
 ![Skills](https://img.shields.io/badge/skills-47-informational?style=flat-square)
 ![Commands](https://img.shields.io/badge/commands-6-informational?style=flat-square)
@@ -23,7 +23,7 @@
 ║   47 battle-tested skills + 6 command workflows                    ║
 ║   Claude Code • Cursor • Codex  • n8n • OpenClaw • and more ...    ║
 ║                                                                    ║
-║   v0.78 • Apr 26, 2026 • CC BY-NC-SA 4.0                            ║
+║   v0.79 • May 15, 2026 • CC BY-NC-SA 4.0                            ║
 ╚════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -88,6 +88,24 @@ Common downloads:
 ---
 
 ## 📣 Updates & Announcements
+
+### May 15, 2026 — v0.79 Community Contributions: Thank You
+
+This one belongs to the contributors.
+
+Since v0.78, three members of the community spotted things we missed and showed up with fixes. @KNE-AI submitted `pm-skill-creator` — a new interactive skill that walks you through designing a repo-compliant skill from scratch via guided conversation, a genuinely useful addition to the meta-tooling. @xiaolai ran a full security audit of the repo's scripts and submitted two targeted fixes: a configurable input length guard in `run-pm.sh` and adapter name validation with path traversal protection in `add-a-skill.sh`. And @changyan01 and @harley-chenhailin caught a real bug: the missing `.claude-plugin/plugin.json` manifest that was silently preventing skill discovery for Claude Code users.
+
+Every one of these contributions made the repo more useful for everyone. This is exactly the kind of community this project is trying to build.
+
+**What changed in v0.79:**
+- Added `skills/pm-skill-creator/` — interactive skill for guided skill design ([@KNE-AI](https://github.com/KNE-AI))
+- Added configurable input length guard to `run-pm.sh` via `PM_MAX_INPUT` env var, default 4000 characters ([@xiaolai](https://github.com/xiaolai))
+- Added adapter name validation and path traversal protection to `add-a-skill.sh` ([@xiaolai](https://github.com/xiaolai))
+- Fixed missing `.claude-plugin/plugin.json` manifest that blocked skill discovery for Claude Code plugin users ([@changyan01](https://github.com/changyan01), [@harley-chenhailin](https://github.com/harley-chenhailin))
+
+Release note: [`docs/announcements/2026-05-15-v0-79-community-contributions.md`](docs/announcements/2026-05-15-v0-79-community-contributions.md)
+
+---
 
 ### Apr 26, 2026 — v0.78 Release Packaging: One Download, Then Better PM Work
 
@@ -829,6 +847,14 @@ See [LICENSE](LICENSE) for full details.
 - **Productside:** [Learn more about AI PM consulting](https://productside.com)
 
 ---
+
+**v0.79 — May 15, 2026**
+
+Highlights in this release:
+- Added `pm-skill-creator` interactive skill for guided skill design
+- Added configurable input length guard to `run-pm.sh` (env var `PM_MAX_INPUT`, default 4000)
+- Added adapter name validation and path traversal protection to `add-a-skill.sh`
+- Fixed missing `.claude-plugin/plugin.json` that blocked Claude Code skill discovery
 
 **v0.78 — April 26, 2026**
 
