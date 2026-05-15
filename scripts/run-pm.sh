@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #
 # run-pm.sh - Fast runner for PM skills and commands
+# NOTE: This is a local development tool. Do not expose it as a service.
 #
 # Usage:
 #   ./scripts/run-pm.sh skill prd-development "Create a PRD for ..."
@@ -53,6 +54,14 @@ parse_args() {
     TARGET="$2"
     INPUT="$3"
     shift 3
+
+    # Guard: reject inputs over the configured character limit to prevent runaway prompts.
+    # Override default with PM_MAX_INPUT=N (e.g. PM_MAX_INPUT=8000 ./scripts/run-pm.sh ...).
+    local max_input="${PM_MAX_INPUT:-4000}"
+    if [[ ${#INPUT} -gt $max_input ]]; then
+        echo "Error: Input exceeds $max_input characters (got ${#INPUT}). Set PM_MAX_INPUT=N to override." >&2
+        exit 1
+    fi
 
     while [[ $# -gt 0 ]]; do
         case "$1" in
