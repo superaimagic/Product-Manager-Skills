@@ -23,7 +23,7 @@
 ║   49 battle-tested skills + 6 command workflows                    ║
 ║   Claude Code • Cursor • Codex  • n8n • OpenClaw • and more ...    ║
 ║                                                                    ║
-║   v0.79 • May 15, 2026 • CC BY-NC-SA 4.0                            ║
+║   v0.79 • May 15, 2026 • CC BY-NC-SA 4.0                           ║
 ╚════════════════════════════════════════════════════════════════════╝
 ```
 
