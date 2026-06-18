@@ -115,6 +115,28 @@ Each pack below is a ZIP of upload-ready skill ZIPs — unzip, then upload indiv
 
 ---
 
+## Try It First — Streamlit (beta)
+
+Not ready to wire skills into your agent setup? Run the local playground first and kick the tires in your browser.
+
+```bash
+pip install -r app/requirements.txt
+streamlit run app/main.py
+```
+
+What you can do:
+- **Learn** — browse setup and integration paths without leaving the app
+- **Find My Skill** — describe your situation in plain English and get recommended skills
+- **Run Skills** — run a skill with your own scenario once you know what you want
+
+Multi-provider support: Anthropic, OpenAI, Ollama. API keys via environment variables only (no in-app key entry).
+
+Docs: [`app/STREAMLIT_INTERFACE.md`](app/STREAMLIT_INTERFACE.md) · [`app/.env.example`](app/.env.example)
+
+Feedback welcome via [GitHub Issues](https://github.com/deanpeters/Product-Manager-Skills/issues) or [LinkedIn](https://linkedin.com/in/deanpeters).
+
+---
+
 ## 49 Skills, 3 Types
 
 Skills are organized in three tiers that build on each other:
