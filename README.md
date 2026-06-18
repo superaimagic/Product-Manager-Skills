@@ -161,6 +161,8 @@ Skills are organized in three tiers that build on each other:
 └────────────────────────────────────────────────────────┘
 ```
 
+**Interactive skills use an Adaptive Decision Ladder.** Instead of dumping a framework at you, an interactive skill asks 3-5 targeted questions about your specific context, then offers numbered recommendations — each with a clear "use this when" rationale. You pick a path. The skill executes it and explains the *why* as it goes. If you want to just learn the framework without doing the work, you can ask that too — the skill coaches you either way. This is ABC — Always Be Coaching — in practice.
+
 **Full catalog:** [catalog/INDEX.md](catalog/README.md) — all 49 skills with descriptions, or browse `skills/` directly.
 
 ---
