@@ -89,6 +89,23 @@ Common downloads:
 
 ## 📣 Updates & Announcements
 
+### June 19, 2026 — v0.80 Stakeholder Suite: Three Skills from the MITRE Innovation Toolkit
+
+Stakeholder work has been a gap in this library since day one. Every PM knows they should be doing it better — mapping who matters, understanding who's being underserved, planning engagement before the room gets political. And yet most of us default to a five-minute brainstorm that reliably captures the executives and misses the frontline users whose daily work the product will change.
+
+This release adds three skills that cover the full stakeholder arc, adapted from the [MITRE Innovation Toolkit](https://itk.mitre.org) — a rigorous collection of human-centered design and facilitation tools developed by The MITRE Corporation. The ITK skills are excellent. What this adaptation does is translate them for a specific reader: the PM who is writing PRDs, running discovery sprints, aligning stakeholders before a roadmap review, and trying to make sure they haven't accidentally optimized for the loudest voices while the highest-impact users remain invisible.
+
+A note on where these came from: the MITRE ITK skills were first adapted into an agent-ready format in a companion repo, [MITRE ITK Skills](https://github.com/deanpeters/MITRE-ITK-Skills), which translates all 27 ITK tools into structured skill files with PM-specific applications, key concepts, and common pitfalls. That repo is worth bookmarking if you work in discovery, facilitation, or cross-functional product strategy. The three skills in this release were then further refactored into PM Skills format — consolidated from five ITK tools into three, restructured to PM Skills anatomy, and in one case rebuilt entirely as an interactive Adaptive Decision Ladder flow.
+
+**What changed in v0.80:**
+- Added `skills/stakeholder-identification/` (Component) — comprehensive stakeholder brainstorm using Allies / Audiences / Influencers categorization, R/P/D marking (Resources, Permission, Decisions), an explicit equity lens, a bias and assumptions check, and a disciplined narrowing to the 2-3 priority targets to investigate first. Consolidates ITK Stakeholder Identification Canvas and Community Map.
+- Added `skills/stakeholder-mapping/` (Component) — two complementary 2×2 grids: Power × Interest (assigns engagement strategy per stakeholder) and Impact × Power (surfaces who bears consequences but lacks organizational voice). The core pedagogic insight is comparing the two grids — the gaps between them reveal the stakeholders you're systematically under-engaging. Consolidates ITK Stakeholder Map & Matrix and Stakeholder Power Categories.
+- Added `skills/stakeholder-engagement-advisor/` (Interactive) — per-stakeholder engagement planning through the Adaptive Decision Ladder. Three questions diagnose the stakeholder's profile, power/impact position, and engagement context; the advisor delivers a tailored engagement approach with key message framing, recommended medium and cadence, what you need from them versus what they need from you, and a named next action with owner and deadline. Adapts ITK Quickstart Stakeholder Engagement Canvas.
+
+Source attribution: All three skills are adapted from the [MITRE Innovation Toolkit](https://itk.mitre.org), published by The MITRE Corporation (Approved for Public Release; Distribution Unlimited; Case #18-1663-5), via the [MITRE ITK Skills](https://github.com/deanpeters/MITRE-ITK-Skills) companion repo. Licensed CC BY-NC-SA 4.0, consistent with the ITK's original ShareAlike terms.
+
+---
+
 ### May 15, 2026 — v0.79 Community Contributions: Thank You
 
 This one belongs to the contributors.

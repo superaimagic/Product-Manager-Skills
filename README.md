@@ -217,9 +217,11 @@ See [docs/Platform Guides for PMs.md](docs/Platform%20Guides%20for%20PMs.md) for
 ## What's New
 
 **v0.80 — June 19, 2026**
-- Added `stakeholder-identification` (Component) — comprehensive stakeholder brainstorm using allies/audiences/influencers, R/P/D marking, equity lens, and bias check; narrows to priority targets; adapted from MITRE ITK
-- Added `stakeholder-mapping` (Component) — two complementary grids (Power × Interest + Impact × Power); comparing outputs reveals who you're under-engaging relative to how much the product affects them; adapted from MITRE ITK
-- Added `stakeholder-engagement-advisor` (Interactive) — per-stakeholder engagement planning via Adaptive Decision Ladder: three questions on profile, power/impact, and context deliver tailored message framing, medium, cadence, and a named next action; adapted from MITRE ITK
+- Added `stakeholder-identification` (Component) — comprehensive stakeholder brainstorm using allies/audiences/influencers, R/P/D marking, equity lens, and bias check; narrows to priority targets
+- Added `stakeholder-mapping` (Component) — two complementary grids (Power × Interest + Impact × Power); comparing outputs reveals who you're under-engaging relative to how much the product affects them
+- Added `stakeholder-engagement-advisor` (Interactive) — per-stakeholder engagement planning via Adaptive Decision Ladder: three questions on profile, power/impact, and context deliver tailored message framing, medium, cadence, and a named next action
+
+All three adapted from the [MITRE Innovation Toolkit](https://itk.mitre.org) via the companion repo [MITRE ITK Skills](https://github.com/deanpeters/MITRE-ITK-Skills) — worth a bookmark if you work in discovery, facilitation, or cross-functional product strategy.
 
 **v0.79 — May 15, 2026**
 - Added `organic-growth-advisor` — McKinsey Growth Pyramid triage for new segments, geographies, channels, or products
