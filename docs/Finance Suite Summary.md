@@ -616,7 +616,7 @@ All skills pass metadata checks. ✅
 
 **Suite Version:** 1.0 (repo v0.3)
 **Release Date:** February 8, 2026
-**License:** CC BY-NC-SA 4.0
+**License:** MIT
 
 **Included in release:**
 - 7 skills (3 component, 4 interactive)

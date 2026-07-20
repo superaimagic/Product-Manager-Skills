@@ -12,7 +12,7 @@
 - 21 Component Skills (templates/artifacts + finance metrics + career frameworks)
 - 22 Interactive Skills (guided discovery + finance advisors + career advisors + growth)
 - 6 Workflow Skills (end-to-end processes + meta skill-authoring + executive onboarding)
-- License: CC BY-NC-SA 4.0
+- License: MIT
 - All skills restructured to Anthropic-compliant format (`skills/skill-name/SKILL.md`)
 
 **Streamlit (beta) Playground (Feb 27, 2026)**

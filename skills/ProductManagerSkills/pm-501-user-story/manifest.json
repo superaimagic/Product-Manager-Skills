@@ -1,0 +1,39 @@
+{
+  "name": "user-story",
+  "display_name": "用户故事生成器",
+  "description": "输入一句话需求，自动生成开发就绪的用户故事（三段式格式 + 验收标准三步法）。PM写需求、PO拆分故事、团队统一标准——一句"帮我写个登录的用户故事"就可以开始。",
+  "version": "1.0.0",
+  "author": "Product-Manager-Skills",
+  "category": "product-management",
+  "tags": ["用户故事", "需求管理", "敏捷开发", "验收标准", "PM工具"],
+  "type": "component",
+  "pricing": "free",
+  "icon": "📝",
+  "skill_file": "SKILL.md",
+  "assets": [
+    "assets/user-story-template.md",
+    "assets/acceptance-criteria-checklist.md"
+  ],
+  "references": [
+    "references/framework-docs.md"
+  ],
+  "examples": [
+    "examples/sample.md"
+  ],
+  "requirements": {
+    "platform": "coze",
+    "min_version": "1.0"
+  },
+  "metadata": {
+    "estimated_time": "5-10 min",
+    "best_for": [
+      "编写具有适当验收标准的用户故事",
+      "将需求转化为开发就绪的故事",
+      "建立团队内的故事质量标准"
+    ],
+    "scenarios": [
+      "我需要为B2B SaaS应用中的新通知系统编写用户故事",
+      "将此PRD需求转化为格式正确的用户故事，带验收标准三步法"
+    ]
+  }
+}

@@ -428,7 +428,7 @@ Tools that score or grade skills can be useful for surfacing structural issues. 
 
 ## 📜 License Note
 
-By contributing, you agree that your contributions will be licensed under the CC BY-NC-SA 4.0 license (same as this repository).
+By contributing, you agree that your contributions will be licensed under the MIT license (same as this repository).
 
 ---
 

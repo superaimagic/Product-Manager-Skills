@@ -2,7 +2,7 @@
 # Product Manager Skills
 
 ![GitHub stars](https://img.shields.io/github/stars/deanpeters/Product-Manager-Skills?style=flat-square)
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills/blob/main/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills/blob/main/CONTRIBUTING.md)
 [![Version](https://img.shields.io/badge/version-v0.79-blue?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills)
 [![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin%20Marketplace-5C4EE5?style=flat-square)](https://code.claude.com/docs/en/plugin-marketplaces)
@@ -23,7 +23,7 @@
 ║   49 battle-tested skills + 6 command workflows                    ║
 ║   Claude Code • Cursor • Codex  • n8n • OpenClaw • and more ...    ║
 ║                                                                    ║
-║   v0.79 • May 15, 2026 • CC BY-NC-SA 4.0                           ║
+║   v0.79 • May 15, 2026 • MIT License                                ║
 ╚════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -102,7 +102,7 @@ A note on where these came from: the MITRE ITK skills were first adapted into an
 - Added `skills/stakeholder-mapping/` (Component) — two complementary 2×2 grids: Power × Interest (assigns engagement strategy per stakeholder) and Impact × Power (surfaces who bears consequences but lacks organizational voice). The core pedagogic insight is comparing the two grids — the gaps between them reveal the stakeholders you're systematically under-engaging. Consolidates ITK Stakeholder Map & Matrix and Stakeholder Power Categories.
 - Added `skills/stakeholder-engagement-advisor/` (Interactive) — per-stakeholder engagement planning through the Adaptive Decision Ladder. Three questions diagnose the stakeholder's profile, power/impact position, and engagement context; the advisor delivers a tailored engagement approach with key message framing, recommended medium and cadence, what you need from them versus what they need from you, and a named next action with owner and deadline. Adapts ITK Quickstart Stakeholder Engagement Canvas.
 
-Source attribution: All three skills are adapted from the [MITRE Innovation Toolkit](https://itk.mitre.org), published by The MITRE Corporation (Approved for Public Release; Distribution Unlimited; Case #18-1663-5), via the [MITRE ITK Skills](https://github.com/deanpeters/MITRE-ITK-Skills) companion repo. Licensed CC BY-NC-SA 4.0, consistent with the ITK's original ShareAlike terms.
+Source attribution: All three skills are adapted from the [MITRE Innovation Toolkit](https://itk.mitre.org), published by The MITRE Corporation (Approved for Public Release; Distribution Unlimited; Case #18-1663-5), via the [MITRE ITK Skills](https://github.com/deanpeters/MITRE-ITK-Skills) companion repo. Licensed MIT, consistent with the ITK's original public release terms.
 
 ---
 
@@ -855,7 +855,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ## 📜 License
 
-CC BY-NC-SA 4.0 — non-commercial use with share-alike.
+MIT License — open source, commercial use allowed.
 
 See [LICENSE](LICENSE) for full details.
 

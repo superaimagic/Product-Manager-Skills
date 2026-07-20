@@ -220,3 +220,7 @@ skills-backup-*.tar.gz
 
 # Local marketplace working docs (do not commit yet)
 docs/marketplace/
+
+# WorkBuddy / CodeBuddy local data
+.codebuddy/
+.workbuddy/
